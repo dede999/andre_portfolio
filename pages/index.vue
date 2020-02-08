@@ -14,6 +14,8 @@
             em equipe, sinto-me motivado com desafios e oportunidades </h3> <br>
           <h3> <kbd>Interesses:</kbd> Esportes em geral, TDD (test-driven-dev), desenvolver soluções
             e facilitadores para o dia-a-dia, interdisciplinaridade </h3>
+          <h3> <kbd>Ensino Médio:</kbd> Colégio Etapa (formado em 2010) </h3>
+          <h3> <kbd>Ensino Superior:</kbd> Ciência da Computação (formado em 2020) </h3>
         </text-block>
       </v-col>
       <v-col cols="2">
