@@ -1,0 +1,39 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+$my-background: hsl(201, 26%, 85%);
+$my-background-with-alpha: hsla(201, 26%, 85%, 70%);
+$my-font: 'Trocchi', serif;
+
+@mixin trocchi-family($size) {
+  font-family: $my-font;
+  font-size: $size;
+}
+
+.mostra-1{
+  @include trocchi-family(34px)
+}
+
+.mostra-2{
+  @include trocchi-family(48px)
+}
+
+.sub-titulo {
+  @include trocchi-family(24px)
+}
+
+@mixin my_linear_gradient {
+  background: linear-gradient(125deg, #91b2c5, #acd4ea);
+}
+
+@mixin neumorphism {
+  @include my_linear_gradient();
+  box-shadow: 6px 6px 12px #89a8ba, -6px -6px 12px #b9e4fc;
+}
+
+@mixin negative_neumorphism {
+  @include my_linear_gradient();
+  box-shadow: inset 10px 10px 20px #89A8BA, inset -10px -10px 20px #B9E4FC;
+}
