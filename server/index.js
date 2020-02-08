@@ -2,8 +2,6 @@ const express = require('express')
 const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
 const bodyParser = require('body-parser')
-// const { ApolloServer } = require('apollo-server-express')
-// const { schemas, resolvers } = require('./graphql/types_and_resolvers')
 const app = express()
 const rotas = require('./routes')
 process.env.DEBUG = 'nuxt:*'
@@ -15,17 +13,6 @@ config.dev = process.env.NODE_ENV !== 'production'
 async function start () {
   // Init Nuxt.js
   const nuxt = new Nuxt(config)
-
-  // const server = new ApolloServer({
-  //   typeDefs: schemas,
-  //   resolvers,
-  //   playground: true
-  // });
-  //
-  // server.applyMiddleware({
-  //   app: app,
-  //   path: '/api/graphql'
-  // });
 
   const { host, port } = nuxt.options.server
 
@@ -53,4 +40,3 @@ async function start () {
 }
 start();
 
-// export default server
