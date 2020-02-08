@@ -1,6 +1,6 @@
 # portfolio
 
-> My dandy Nuxt.js project
+Este repositório guarda a versão mais atual de meu portfólio virtual.
 
 ## Build Setup
 
@@ -20,7 +20,3 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-
-## Important
-
-All files under `server/not_used` will not be removed so I can have an idea next time I have to implement something similar
