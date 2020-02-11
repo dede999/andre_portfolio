@@ -54,16 +54,6 @@ module.exports = {
   */
   axios: {
   },
-  /**
-   * Apollo Configs
-   */
-  apollo: {
-    clientConfigs: {
-      default: {
-        httpEndpoint: 'http://localhost:3000/api/graphql'
-      }
-    }
-  },
   webfontloader: {
     google: {
       families: ['Bangers', 'Trocchi'] //Loads Lato font with weights 400 and 700
