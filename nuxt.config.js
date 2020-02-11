@@ -17,6 +17,10 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Bangers|Trocchi' },
     ]
   },
+  server: {
+    port: 3000, // default: 3000
+    timing: false
+  },
   /*
   ** Customize the progress-bar color
   */
