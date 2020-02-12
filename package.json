@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "My dandy Nuxt.js project",
+  "description": "Meu portfólio Web",
   "author": "Andre Luiz AS",
   "private": true,
   "scripts": {
