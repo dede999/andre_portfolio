@@ -102,7 +102,7 @@ const projects = [
     first_commit: '24-07-2019',
     link: 'https://github.com/dede999/nuxt_sandbox',
     tags: ['P'],
-    tools: ['html', 'js', 'ruby'],
+    tools: ['html', 'js', 'css'],
     framework: ['nuxt', 'rails'],
     desc_pt: 'Este projeto foi feito para aprender como lidar com problema de CORS ao usar API\'s REST em uma outra aplicações. O back end feito em Rails e tem uma entidade que conta com dados genéricos. Depois de finalizar este exercício, consigo manipular dados pelo front end também.',
     desc_en: 'This project was created to learn how to deal with CORS issues when using REST API\'s on a different application. Back end was made in Rails and has an entity with generic data. After completing this exercise, I can manipulate data though the front end too.',

@@ -3,7 +3,7 @@
     <h1 class="the-title"> André Luiz Abdalla Silveira </h1>
     <v-spacer/>
     <v-btn large>
-      <nuxt-link to="/" v-on="on">
+      <nuxt-link to="/">
         <v-icon color="teal darken-4" large>fas fa-home</v-icon>
       </nuxt-link>
     </v-btn>
