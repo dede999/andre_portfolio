@@ -114,7 +114,7 @@ const projects = [
     first_commit: '27-03-2020',
     link: 'https://gitlab.com/semana-omnistack-11',
     tags: ['A', 'P', 'U'],
-    tools: ['html', 'js', 'css'],
+    tools: ['html', 'js', 'css', 'expo'],
     framework: ['express', 'jest', 'react', 'react native'],
     desc_pt: 'Este projeto é o resultado de um programa ofererecido pela Rocketseat chamado Semana Omnistack 11. Tem 3 partes: a primeira feita em Express, a segunda em React e a terceira, em React Native',
     desc_en: 'This project comes from the lessons tought in a program called Omnistack Week 11 offered by Rockseat. It has 3 parts: fist one was made in Express, the second in React, and the third, in React Native',

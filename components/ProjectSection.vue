@@ -28,6 +28,4 @@
     .text
       text-align: center
 
-    .v-btn
-      left: 30%
 </style>

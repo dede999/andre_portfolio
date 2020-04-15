@@ -25,6 +25,11 @@
   box-shadow: 16px 16px 32px #89a8ba, -16px -16px 32px #b9e4fc
   border-radius: 15px 55px
   font-family: 'Trocchi', sans-serif
+  display: flex
+  flex-direction: column
+
+.v-btn
+  align-self: center
 
 .with-padding
   padding: 20px

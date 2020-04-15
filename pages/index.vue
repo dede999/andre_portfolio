@@ -4,24 +4,9 @@
       align="center"
       justify="space-around"
       class="main-row">
-      <v-col cols="4">
-        <text-block padding>
-          <h1> Sobre Mim </h1> <br>
-          <h3> <kbd>Nasc:</kbd>  17/06/1.992 </h3> <br>
-          <h3> <kbd>Descrição:</kbd> Aluno se formando em Ciência da Computação. Último semestre.
-            Fontes de ideias criativas, e vontade de conhecer ferramentas e oportunidades novas </h3> <br>
-          <h3> <kbd>Qualidades:</kbd> Esforçado, comunicativo, responsável gosto de trabalhar
-            em equipe, sinto-me motivado com desafios e oportunidades </h3> <br>
-          <h3> <kbd>Interesses:</kbd> Esportes em geral, TDD (test-driven-dev), desenvolver soluções
-            e facilitadores para o dia-a-dia, interdisciplinaridade </h3>
-          <h3> <kbd>Ensino Médio:</kbd> Colégio Etapa (formado em 2010) </h3>
-          <h3> <kbd>Ensino Superior:</kbd> Ciência da Computação (formado em 2020) </h3>
-        </text-block>
-      </v-col>
-      <v-col cols="2">
+      <v-col cols="xs-12 md-6" class="presentation">
+
         <img src="../static/me.png" alt="Sou eu">
-      </v-col>
-      <v-col cols="5">
         <text-block>
           <v-simple-table>
             <template v-slot:default>
@@ -44,15 +29,29 @@
           </v-simple-table>
         </text-block>
       </v-col>
+      <v-col cols="xs-12" md="6" sm="12">
+        <text-block padding>
+          <h1> Sobre Mim </h1> <br>
+          <h3> <kbd>Nasc:</kbd>  17/06/1.992 </h3> <br>
+          <h3> <kbd>Descrição:</kbd> Aluno se formando em Ciência da Computação. Último semestre.
+            Fontes de ideias criativas, e vontade de conhecer ferramentas e oportunidades novas </h3> <br>
+          <h3> <kbd>Qualidades:</kbd> Esforçado, comunicativo, responsável gosto de trabalhar
+            em equipe, sinto-me motivado com desafios e oportunidades </h3> <br>
+          <h3> <kbd>Interesses:</kbd> Esportes em geral, TDD (test-driven-dev), desenvolver soluções
+            e facilitadores para o dia-a-dia, interdisciplinaridade </h3>
+          <h3> <kbd>Ensino Médio:</kbd> Colégio Etapa (formado em 2010) </h3>
+          <h3> <kbd>Ensino Superior:</kbd> Ciência da Computação (formado em 2020) </h3>
+        </text-block>
+      </v-col>
     </v-row>
     <v-row
       align="center"
       justify="space-around"
       class="main-row">
-      <v-col cols="4" class="cards">
+      <v-col md="4" sm="12  " class="cards">
         <xp-section/>
       </v-col>
-      <v-col cols="4" class="cards">
+      <v-col md="4" sm="12" class="cards">
         <project-section/>
       </v-col>
     </v-row>
@@ -95,7 +94,11 @@ export default {
 <style lang="sass" scoped>
 
   .main-row
+    display: flex
+    align-items: flex-end
+    flex-direction: row
     margin-top: 40px
+    width: 100%
 
   .text-block
     margin
@@ -107,10 +110,16 @@ export default {
     font-weight: bolder
 
   img
-    width: 240px
+    width: 235px
     height: 250px
 
   thead, tbody
     background-color: hsl(201, 45%, 75%)
 
+  .presentation
+    display: flex
+    flex-direction: column
+    justify-content: center
+    img
+      align-self: center
 </style>
